@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0FC01E24BEE21900CCBF12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0FC01D24BEE21900CCBF12 /* AppDelegate.swift */; };
+		2D0FC02024BEE21900CCBF12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0FC01F24BEE21900CCBF12 /* ContentView.swift */; };
+		2D0FC02224BEE21900CCBF12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0FC02124BEE21900CCBF12 /* Assets.xcassets */; };
+		2D0FC02524BEE21900CCBF12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0FC02424BEE21900CCBF12 /* Preview Assets.xcassets */; };
+		2D0FC02824BEE21900CCBF12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0FC02624BEE21900CCBF12 /* Main.storyboard */; };
+		2D0FC03424BEE21900CCBF12 /* MerutoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0FC03324BEE21900CCBF12 /* MerutoTests.swift */; };
+		2D0FC03F24BEE21900CCBF12 /* MerutoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0FC03E24BEE21900CCBF12 /* MerutoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D0FC03024BEE21900CCBF12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D0FC01224BEE21900CCBF12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D0FC01924BEE21900CCBF12;
+			remoteInfo = Meruto;
+		};
+		2D0FC03B24BEE21900CCBF12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D0FC01224BEE21900CCBF12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D0FC01924BEE21900CCBF12;
+			remoteInfo = Meruto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D0FC01A24BEE21900CCBF12 /* Meruto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meruto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0FC01D24BEE21900CCBF12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D0FC01F24BEE21900CCBF12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D0FC02124BEE21900CCBF12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D0FC02424BEE21900CCBF12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D0FC02724BEE21900CCBF12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D0FC02924BEE21900CCBF12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D0FC02A24BEE21900CCBF12 /* Meruto.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Meruto.entitlements; sourceTree = "<group>"; };
+		2D0FC02F24BEE21900CCBF12 /* MerutoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MerutoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0FC03324BEE21900CCBF12 /* MerutoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerutoTests.swift; sourceTree = "<group>"; };
+		2D0FC03524BEE21900CCBF12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D0FC03A24BEE21900CCBF12 /* MerutoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MerutoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0FC03E24BEE21900CCBF12 /* MerutoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerutoUITests.swift; sourceTree = "<group>"; };
+		2D0FC04024BEE21900CCBF12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D0FC01724BEE21900CCBF12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0FC02C24BEE21900CCBF12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0FC03724BEE21900CCBF12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D0FC01124BEE21900CCBF12 = {
+			isa = PBXGroup;
+			children = (
+				2D0FC01C24BEE21900CCBF12 /* Meruto */,
+				2D0FC03224BEE21900CCBF12 /* MerutoTests */,
+				2D0FC03D24BEE21900CCBF12 /* MerutoUITests */,
+				2D0FC01B24BEE21900CCBF12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D0FC01B24BEE21900CCBF12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D0FC01A24BEE21900CCBF12 /* Meruto.app */,
+				2D0FC02F24BEE21900CCBF12 /* MerutoTests.xctest */,
+				2D0FC03A24BEE21900CCBF12 /* MerutoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D0FC01C24BEE21900CCBF12 /* Meruto */ = {
+			isa = PBXGroup;
+			children = (
+				2D0FC01D24BEE21900CCBF12 /* AppDelegate.swift */,
+				2D0FC01F24BEE21900CCBF12 /* ContentView.swift */,
+				2D0FC02124BEE21900CCBF12 /* Assets.xcassets */,
+				2D0FC02624BEE21900CCBF12 /* Main.storyboard */,
+				2D0FC02924BEE21900CCBF12 /* Info.plist */,
+				2D0FC02A24BEE21900CCBF12 /* Meruto.entitlements */,
+				2D0FC02324BEE21900CCBF12 /* Preview Content */,
+			);
+			path = Meruto;
+			sourceTree = "<group>";
+		};
+		2D0FC02324BEE21900CCBF12 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2D0FC02424BEE21900CCBF12 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D0FC03224BEE21900CCBF12 /* MerutoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D0FC03324BEE21900CCBF12 /* MerutoTests.swift */,
+				2D0FC03524BEE21900CCBF12 /* Info.plist */,
+			);
+			path = MerutoTests;
+			sourceTree = "<group>";
+		};
+		2D0FC03D24BEE21900CCBF12 /* MerutoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D0FC03E24BEE21900CCBF12 /* MerutoUITests.swift */,
+				2D0FC04024BEE21900CCBF12 /* Info.plist */,
+			);
+			path = MerutoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D0FC01924BEE21900CCBF12 /* Meruto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0FC04324BEE21900CCBF12 /* Build configuration list for PBXNativeTarget "Meruto" */;
+			buildPhases = (
+				2D0FC01624BEE21900CCBF12 /* Sources */,
+				2D0FC01724BEE21900CCBF12 /* Frameworks */,
+				2D0FC01824BEE21900CCBF12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meruto;
+			productName = Meruto;
+			productReference = 2D0FC01A24BEE21900CCBF12 /* Meruto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D0FC02E24BEE21900CCBF12 /* MerutoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0FC04624BEE21900CCBF12 /* Build configuration list for PBXNativeTarget "MerutoTests" */;
+			buildPhases = (
+				2D0FC02B24BEE21900CCBF12 /* Sources */,
+				2D0FC02C24BEE21900CCBF12 /* Frameworks */,
+				2D0FC02D24BEE21900CCBF12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D0FC03124BEE21900CCBF12 /* PBXTargetDependency */,
+			);
+			name = MerutoTests;
+			productName = MerutoTests;
+			productReference = 2D0FC02F24BEE21900CCBF12 /* MerutoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D0FC03924BEE21900CCBF12 /* MerutoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0FC04924BEE21900CCBF12 /* Build configuration list for PBXNativeTarget "MerutoUITests" */;
+			buildPhases = (
+				2D0FC03624BEE21900CCBF12 /* Sources */,
+				2D0FC03724BEE21900CCBF12 /* Frameworks */,
+				2D0FC03824BEE21900CCBF12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D0FC03C24BEE21900CCBF12 /* PBXTargetDependency */,
+			);
+			name = MerutoUITests;
+			productName = MerutoUITests;
+			productReference = 2D0FC03A24BEE21900CCBF12 /* MerutoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D0FC01224BEE21900CCBF12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Yat Chung Law";
+				TargetAttributes = {
+					2D0FC01924BEE21900CCBF12 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					2D0FC02E24BEE21900CCBF12 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 2D0FC01924BEE21900CCBF12;
+					};
+					2D0FC03924BEE21900CCBF12 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 2D0FC01924BEE21900CCBF12;
+					};
+				};
+			};
+			buildConfigurationList = 2D0FC01524BEE21900CCBF12 /* Build configuration list for PBXProject "Meruto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D0FC01124BEE21900CCBF12;
+			productRefGroup = 2D0FC01B24BEE21900CCBF12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D0FC01924BEE21900CCBF12 /* Meruto */,
+				2D0FC02E24BEE21900CCBF12 /* MerutoTests */,
+				2D0FC03924BEE21900CCBF12 /* MerutoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D0FC01824BEE21900CCBF12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0FC02824BEE21900CCBF12 /* Main.storyboard in Resources */,
+				2D0FC02524BEE21900CCBF12 /* Preview Assets.xcassets in Resources */,
+				2D0FC02224BEE21900CCBF12 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0FC02D24BEE21900CCBF12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0FC03824BEE21900CCBF12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D0FC01624BEE21900CCBF12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0FC02024BEE21900CCBF12 /* ContentView.swift in Sources */,
+				2D0FC01E24BEE21900CCBF12 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0FC02B24BEE21900CCBF12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0FC03424BEE21900CCBF12 /* MerutoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0FC03624BEE21900CCBF12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0FC03F24BEE21900CCBF12 /* MerutoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D0FC03124BEE21900CCBF12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D0FC01924BEE21900CCBF12 /* Meruto */;
+			targetProxy = 2D0FC03024BEE21900CCBF12 /* PBXContainerItemProxy */;
+		};
+		2D0FC03C24BEE21900CCBF12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D0FC01924BEE21900CCBF12 /* Meruto */;
+			targetProxy = 2D0FC03B24BEE21900CCBF12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D0FC02624BEE21900CCBF12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D0FC02724BEE21900CCBF12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D0FC04124BEE21900CCBF12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D0FC04224BEE21900CCBF12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2D0FC04424BEE21900CCBF12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Meruto/Meruto.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Meruto/Preview Content\"";
+				DEVELOPMENT_TEAM = 7RKS2L76P9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Meruto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = Meowcolm024.Meruto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2D0FC04524BEE21900CCBF12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Meruto/Meruto.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Meruto/Preview Content\"";
+				DEVELOPMENT_TEAM = 7RKS2L76P9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Meruto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = Meowcolm024.Meruto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2D0FC04724BEE21900CCBF12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7RKS2L76P9;
+				INFOPLIST_FILE = MerutoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = Meowcolm024.MerutoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meruto.app/Contents/MacOS/Meruto";
+			};
+			name = Debug;
+		};
+		2D0FC04824BEE21900CCBF12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7RKS2L76P9;
+				INFOPLIST_FILE = MerutoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = Meowcolm024.MerutoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meruto.app/Contents/MacOS/Meruto";
+			};
+			name = Release;
+		};
+		2D0FC04A24BEE21900CCBF12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7RKS2L76P9;
+				INFOPLIST_FILE = MerutoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Meowcolm024.MerutoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Meruto;
+			};
+			name = Debug;
+		};
+		2D0FC04B24BEE21900CCBF12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7RKS2L76P9;
+				INFOPLIST_FILE = MerutoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Meowcolm024.MerutoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Meruto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D0FC01524BEE21900CCBF12 /* Build configuration list for PBXProject "Meruto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0FC04124BEE21900CCBF12 /* Debug */,
+				2D0FC04224BEE21900CCBF12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0FC04324BEE21900CCBF12 /* Build configuration list for PBXNativeTarget "Meruto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0FC04424BEE21900CCBF12 /* Debug */,
+				2D0FC04524BEE21900CCBF12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0FC04624BEE21900CCBF12 /* Build configuration list for PBXNativeTarget "MerutoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0FC04724BEE21900CCBF12 /* Debug */,
+				2D0FC04824BEE21900CCBF12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0FC04924BEE21900CCBF12 /* Build configuration list for PBXNativeTarget "MerutoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0FC04A24BEE21900CCBF12 /* Debug */,
+				2D0FC04B24BEE21900CCBF12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D0FC01224BEE21900CCBF12 /* Project object */;
+}
